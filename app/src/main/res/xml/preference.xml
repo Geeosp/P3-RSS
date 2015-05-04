@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="feed_url"
+        android:title="Feed Url"
+        android:dialogTitle="Digite a url do feed"
+        android:defaultValue="http://g1.globo.com/dynamo/rss2.xml"/>
+
+
+    <Preference android:title="Ok"
+        android:key="ok_button"
+       />
+
+
+</PreferenceScreen>

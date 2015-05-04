@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#225566"
+
+    tools:context="br.ufpe.cin.if1001.rss.MainActivity$PlaceholderFragment" >
+        <ListView
+        android:id="@+id/rss_feed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:dividerHeight="0dp"
+            android:divider="#00000000"
+            />
+</RelativeLayout>
